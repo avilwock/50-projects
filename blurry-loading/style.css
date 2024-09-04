@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg {
+    background: url('https://www.massaudubon.org/var/site/storage/images/1/1/9/9/1659911-1-eng-US/9e6b1b96a456-5457Jenny_Zhao44790-1920x1280-2-.jpg') no-repeat center center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
